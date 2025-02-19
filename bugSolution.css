@@ -1,0 +1,11 @@
+The issue was likely caused by a lack of spacing around the minus operator in the `calc()` function.
+
+Corrected code:
+
+```css
+.element {
+  width: calc(100vw - 20px);
+}
+```
+
+Ensure there is a space before and after the minus operator (`-`) for proper calculation.
